@@ -4,15 +4,15 @@
 
 ### Initialising the database
 
-Open PostgreSQL
+1. Open PostgreSQL:
 
     psql
 
-Run the tournament.sql script to create the tournament database, tables and views
+2. Run the tournament.sql script to create the tournament database, tables and views:
 
     \i tournament.sql
 
-### Available functions
+## Available functions
 1. `deleteMatches()` - Remove all the match records from the database.
 2. `deletePlayers()` - Remove all the player records from the database.
 3. `countPlayers()` - Returns the number of players currently registered.
@@ -22,7 +22,8 @@ Run the tournament.sql script to create the tournament database, tables and view
 7. `swissPairings()` - Returns a list of pairs of players for the next round of a match.
 
 
-### Testing the functions
+## Testing the functions
 
-Run the tournament_test.py Python file to test the tournament functions.
-> python tournament_test.py
+Run the tournament_test.py Python file to test the tournament functions:
+
+    python tournament_test.py
