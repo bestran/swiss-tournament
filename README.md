@@ -4,11 +4,11 @@
 
 ### Initialising the database
 
-1. Open PostgreSQL:
+Open PostgreSQL:
 
     psql
 
-2. Run the tournament.sql script to create the tournament database, tables and views:
+Run the tournament.sql script to create the tournament database, tables and views:
 
     \i tournament.sql
 
