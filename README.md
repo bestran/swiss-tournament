@@ -5,10 +5,12 @@
 ### Initialising the database
 
 Open PostgreSQL
-  psql
+
+    psql
 
 Run the tournament.sql script to create the tournament database, tables and views
-  \i tournament.sql
+
+    \i tournament.sql
 
 ### Available functions
 1. `deleteMatches()` - Remove all the match records from the database.
