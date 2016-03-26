@@ -1,16 +1,16 @@
 # Python functions to implement a Swiss-system tournament
 
-## Install
+### Install
 
-### Initialising the database
+Run the tournament.sql script to create the tournament database schema:
 
-Open PostgreSQL:
+    psql -f tournament.sql
 
-    psql
+## Testing the functions
 
-Run the tournament.sql script to create the tournament database, tables and views:
+Run the tournament_test.py Python file to test the tournament functions:
 
-    \i tournament.sql
+    python tournament_test.py
 
 ## Available functions
 1. `deleteMatches()` - Remove all the match records from the database.
@@ -22,8 +22,4 @@ Run the tournament.sql script to create the tournament database, tables and view
 7. `swissPairings()` - Returns a list of pairs of players for the next round of a match.
 
 
-## Testing the functions
 
-Run the tournament_test.py Python file to test the tournament functions:
-
-    python tournament_test.py
